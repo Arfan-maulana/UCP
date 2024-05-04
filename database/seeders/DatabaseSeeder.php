@@ -24,9 +24,13 @@ class DatabaseSeeder extends Seeder
         ]);
 
         User::factory()->create([
-            'name' => 'Muhammad Arfan Maulana',
-            'email' => 'muhammad.arfan.ft21@mail.umy.ac.id',
+            'name' => 'Kelompok 1',
+            'email' => 'Kelompok@mail.com',
+       ]);
 
+        User::factory()->create([
+            'name' => 'Kelompok 2',
+            'email' => 'Kelompok2@mail.com',
        ]);
 
         User::factory(100)-> create();
